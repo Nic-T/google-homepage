@@ -4,3 +4,120 @@
     
 
 }
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.middleContent{
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+
+}
+
+.myImage{
+    margin-top:150px;
+    margin-bottom: 30px;
+
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.myButtons{
+    margin-top:20px;
+    padding:0px 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:40px;
+}
+
+.sButton{
+    display: flex;
+    padding:7px 17px;
+    margin-right:10px;
+    border:0;
+    border-radius: 5px;
+    color:grey;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    
+}
+.search{
+    width:520px;
+    border-radius:240px;
+    border:1px solid #ccc;
+    height:40px;
+    background-image: url(../images/search_but.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 15px;
+    padding-left:50px;
+}
+
+.search:hover{
+
+    box-shadow: 1px 1px 4px 1px lightgray;
+
+}
+.links{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.basicLinks{
+    display: flex;
+    flex-direction: row;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+.bL{
+
+    padding-right: 20px;
+
+}
+.square{
+    opacity: 60%;
+    padding-right: 20px;
+}
+.square:hover{
+    opacity:100%;
+}
+.logo{
+    padding-right:10px;
+}
+
+.logoBTN{
+    background-color:#4285f4;
+    color:white;
+    border:0px;
+    padding:8px 12px;
+}
+
+.languages{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.moreLanguages{
+
+    padding-left:15px;
+
+}
