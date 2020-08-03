@@ -1,1 +1,2 @@
-In my first project i will build a google like homepage in HTML and CSS.
+My first project for the odin project. 
+A simple copy of the google home page.
